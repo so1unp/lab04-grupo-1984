@@ -74,32 +74,3 @@ void inicializar_mapa(Sector *sector)
     }
 }
 
-void dibujar_mapa(WINDOW *mapa, Sector *sector)
-{
-    int i;
-    int j;
-
-    werase(mapa);
-
-    box(mapa, 0, 0);
-
-    mvwprintw(
-        mapa,
-        0,
-        2,
-        " SERVIDOR - MAPA COMPARTIDO "
-    );
-
-    for (i = 1; i < FILAS - 1; i++) {
-        for (j = 1; j < COLUMNAS - 1; j++) {
-            mvwaddch(
-                mapa,
-                i,
-                j,
-                sector->mapa[i][j]
-            );
-        }
-    }
-
-    wrefresh(mapa);
-}
