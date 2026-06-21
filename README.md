@@ -96,3 +96,122 @@ Pueden agregar las siguientes u otras, características adicionales al juego:
     - Si el escudo llega a cero, la nave queda averiada y puede ser presa de cualquier otra nave.
 - Agujeros negros: singularidades que atraen naves si estan cerca o las atrapa si caen dentro de su horizonte de sucesos. El consumo de combustible se incrementa dentro del área cercana al agujero negro. Si la nave no se mueve, es atraída al mismo. Si cae en el agujero, la nave se pierde junto con todos sus recursos.
 
+
+
+---
+
+# Implementación realizada
+
+## Integrantes
+
+- Martina Liberatori
+- Agustin Gigliotti
+- Moises Kutnich
+- Santiago Gabet
+
+
+## Funcionalidades implementadas
+
+### Servidor
+
+- Administración del mapa mediante memoria compartida POSIX.
+- Lectura de configuración desde `config.txt`.
+- Soporte para hasta 10 naves simultáneas.
+- Visualización del mapa mediante `ncurses`.
+
+### Naves
+
+- Movimiento mediante teclado.
+- Consumo de combustible al desplazarse.
+- Consumo periódico de oxígeno mediante hilo de soporte vital.
+- Extracción de recursos de asteroides.
+- Venta de recursos a la estación espacial.
+- Comunicación mediante colas de mensajes POSIX.
+- Recepción de alertas enviadas por la estación.
+
+### Estación espacial
+
+- Hangar con capacidad máxima de 3 naves.
+- Control mediante semáforo contador POSIX.
+- Compra de minerales.
+- Consumo periódico de combustible.
+- Solicitud automática de deuterio cuando el combustible es bajo.
+- Registro de eventos en bitácora.
+
+## Conceptos de Sistemas Operativos utilizados
+
+### Procesos
+
+- Servidor.
+- Estación espacial.
+- Naves espaciales.
+
+### Hilos
+
+- Hilo de soporte vital en cada nave.
+
+### Memoria compartida POSIX
+
+Utilizada para compartir el mapa entre servidor, estación y naves.
+
+### Mutex
+
+Utilizados para proteger estructuras internas de las naves.
+
+### Semáforos
+
+Semáforo contador para limitar el hangar a un máximo de 3 naves.
+
+### Colas de mensajes POSIX
+
+- Nave → Estación.
+- Estación → Naves.
+
+### Sistema de archivos
+
+- config.txt
+- bitacora.txt
+
+## Compilación
+
+Servidor:
+
+gcc -o servidor servidor.c -lncurses -lrt -pthread
+
+Estación:
+
+gcc -o estacion estacion.c -lncurses -lrt -pthread
+
+Nave:
+
+gcc -o nave nave.c -lncurses -lrt -pthread
+
+Ejecución
+
+Terminal 1:
+
+./servidor
+
+Terminal 2:
+
+./estacion
+
+Terminal 3:
+
+./nave 0
+
+Terminal 4:
+
+./nave 1
+
+Terminal 5:
+
+./nave 2
+
+Controles de la nave
+Flechas: mover nave
+x: extraer recursos
+v: vender recursos
+e: ingresar al hangar
+s: salir del hangar
+q: salir

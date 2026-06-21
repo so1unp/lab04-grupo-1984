@@ -1,0 +1,122 @@
+Estacion iniciada
+Nave ingreso al hangar
+Nave ingreso al hangar
+Nave ingreso al hangar
+Estacion finalizada
+Estacion iniciada
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion finalizada
+Estacion iniciada
+Venta de minerales
+Estacion iniciada
+Venta de minerales
+Venta de minerales
+Venta de minerales
+Venta de minerales
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Venta de minerales
+Estacion finalizada
+Estacion iniciada
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion iniciada
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion finalizada
+Estacion iniciada
+Nave ingreso al hangar
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion finalizada
+Estacion iniciada
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion finalizada
+Estacion iniciada
+Venta de minerales
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Salida rechazada: hangar vacio
+Salida rechazada: hangar vacio
+Salida rechazada: hangar vacio
+Salida rechazada: hangar vacio
+Estacion finalizada
+Estacion iniciada
+Nave ingreso al hangar
+Nave salio del hangar
+Nave ingreso al hangar
+Nave salio del hangar
+Nave ingreso al hangar
+Nave salio del hangar
+Nave ingreso al hangar
+Nave salio del hangar
+Nave ingreso al hangar
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion solicita deuterio
+Estacion finalizada
