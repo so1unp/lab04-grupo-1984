@@ -64,7 +64,11 @@ void dibujar_mapa_compartido(void)
 
     for (i = 1; i < FILAS - 1; i++) {
         for (j = 1; j < COLUMNAS - 1; j++) {
+<<<<<<< HEAD
             mvwaddch(mapa, i, j, sector->mapa[i][j]);
+=======
+            mvwaddch(mapa, i, j, (chtype) sector->mapa[i][j]);
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e
         }
     }
 
@@ -218,7 +222,11 @@ void registrar_cliente(void)
     sector->clientes[id_cliente].activo = 1;
     sector->clientes[id_cliente].y = y;
     sector->clientes[id_cliente].x = x;
+<<<<<<< HEAD
     sector->clientes[id_cliente].simbolo = '0' + id_cliente;
+=======
+    sector->clientes[id_cliente].simbolo = (char)('0' + id_cliente);
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e
 
     sector->mapa[y][x] = sector->clientes[id_cliente].simbolo;
 }

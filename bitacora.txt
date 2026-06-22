@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 Estacion iniciada
 Nave ingreso al hangar
 Nave ingreso al hangar
 Nave ingreso al hangar
 Estacion finalizada
+=======
+
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e

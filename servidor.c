@@ -43,7 +43,11 @@ void inicializar_clientes(Sector *sector)
         sector->clientes[i].activo = 0;
         sector->clientes[i].y = 0;
         sector->clientes[i].x = 0;
+<<<<<<< HEAD
         sector->clientes[i].simbolo = '0' + i;
+=======
+        sector->clientes[i].simbolo = (char)('0' + i);
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e
     }
 }
 
@@ -100,7 +104,11 @@ void dibujar_mapa(WINDOW *mapa, Sector *sector)
 
     for (i = 1; i < FILAS - 1; i++) {
         for (j = 1; j < COLUMNAS - 1; j++) {
+<<<<<<< HEAD
             mvwaddch(mapa, i, j, sector->mapa[i][j]);
+=======
+            mvwaddch(mapa, i, j, (chtype) sector->mapa[i][j]);
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e
         }
     }
 

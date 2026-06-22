@@ -66,7 +66,7 @@ void dibujar_mapa(WINDOW *mapa, Sector *sector)
 
     for (i = 1; i < FILAS - 1; i++) {
         for (j = 1; j < COLUMNAS - 1; j++) {
-            mvwaddch(mapa, i, j, sector->mapa[i][j]);
+            mvwaddch(mapa, i, j, (chtype) sector->mapa[i][j]);
         }
     }
 
@@ -172,10 +172,17 @@ int main(int argc, char *argv[])
         exit(EXIT_FAILURE);
     }
 
+<<<<<<< HEAD
     precio_deut = leer_valor_config("PRECIO_DEUTERIO", 10);
     precio_mut  = leer_valor_config("PRECIO_MUTEXIO", 20);
     precio_sem  = leer_valor_config("PRECIO_SEMAFORITA", 30);
     precio_ker  = leer_valor_config("PRECIO_KERNELIO", 40);
+=======
+    precio_deut = leer_valor_config("PRECIO_DEUT", 10);
+    precio_mut  = leer_valor_config("PRECIO_MUT", 20);
+    precio_sem  = leer_valor_config("PRECIO_SEM", 30);
+    precio_ker  = leer_valor_config("PRECIO_KER", 40);
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e
     registrar_evento("Estacion iniciada");
 
     initscr();
@@ -312,4 +319,8 @@ int main(int argc, char *argv[])
     printf("Estacion finalizada.\n");
 
     exit(EXIT_SUCCESS);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e

@@ -22,4 +22,8 @@ typedef struct {
     Cliente clientes[MAX_CLIENTES];
 } Sector;
 
+<<<<<<< HEAD
 #endif
+=======
+#endif
+>>>>>>> b249e1ce426644f3098828c071286f4033e95a3e
