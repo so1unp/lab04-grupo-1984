@@ -1,0 +1,5 @@
+Estacion iniciada
+Nave ingreso al hangar
+Nave ingreso al hangar
+Nave ingreso al hangar
+Estacion finalizada
